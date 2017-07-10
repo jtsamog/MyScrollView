@@ -13,6 +13,7 @@
 		300EE1E11F13CDA9005C346E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300EE1DF1F13CDA9005C346E /* Main.storyboard */; };
 		300EE1E31F13CDA9005C346E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300EE1E21F13CDA9005C346E /* Assets.xcassets */; };
 		300EE1E61F13CDA9005C346E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300EE1E41F13CDA9005C346E /* LaunchScreen.storyboard */; };
+		300EE1EF1F13D9B1005C346E /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 300EE1EE1F13D9B1005C346E /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		300EE1E21F13CDA9005C346E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		300EE1E51F13CDA9005C346E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		300EE1E71F13CDA9005C346E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300EE1ED1F13D9B1005C346E /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		300EE1EE1F13D9B1005C346E /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,11 @@
 		300EE1D51F13CDA9005C346E /* MyScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				300EE1D91F13CDA9005C346E /* AppDelegate.h */,
-				300EE1DA1F13CDA9005C346E /* AppDelegate.m */,
 				300EE1DC1F13CDA9005C346E /* ViewController.h */,
 				300EE1DD1F13CDA9005C346E /* ViewController.m */,
+				300EE1ED1F13D9B1005C346E /* MyScrollView.h */,
+				300EE1EE1F13D9B1005C346E /* MyScrollView.m */,
 				300EE1DF1F13CDA9005C346E /* Main.storyboard */,
-				300EE1E21F13CDA9005C346E /* Assets.xcassets */,
-				300EE1E41F13CDA9005C346E /* LaunchScreen.storyboard */,
-				300EE1E71F13CDA9005C346E /* Info.plist */,
 				300EE1D61F13CDA9005C346E /* Supporting Files */,
 			);
 			path = MyScrollView;
@@ -74,6 +74,11 @@
 		300EE1D61F13CDA9005C346E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				300EE1D91F13CDA9005C346E /* AppDelegate.h */,
+				300EE1DA1F13CDA9005C346E /* AppDelegate.m */,
+				300EE1E21F13CDA9005C346E /* Assets.xcassets */,
+				300EE1E41F13CDA9005C346E /* LaunchScreen.storyboard */,
+				300EE1E71F13CDA9005C346E /* Info.plist */,
 				300EE1D71F13CDA9005C346E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				300EE1DE1F13CDA9005C346E /* ViewController.m in Sources */,
+				300EE1EF1F13D9B1005C346E /* MyScrollView.m in Sources */,
 				300EE1DB1F13CDA9005C346E /* AppDelegate.m in Sources */,
 				300EE1D81F13CDA9005C346E /* main.m in Sources */,
 			);
